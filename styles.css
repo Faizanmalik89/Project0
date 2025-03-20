@@ -75,3 +75,28 @@ div {
 h2 {
     color: #333;
 }
+
+/* Ads & Videos Page Styling */
+.ad-container, .video-container {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe, .video-container video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Ad Placeholder */
+.ad-container {
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #666;
+}
